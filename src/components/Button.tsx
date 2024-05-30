@@ -4,6 +4,6 @@ interface ButtonProps{
     variant?: ButtonVariant;
 }
 
-export function Button({color = 'primary'}: ButtonProps){
-return <ButtonContainer variant={color} >Enviar</ButtonContainer>
+export function Button({variant = 'primary'}: ButtonProps){
+return <ButtonContainer variant={variant} >Enviar</ButtonContainer>
 }
